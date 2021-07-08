@@ -1,3 +1,5 @@
+// to run, exclude other files from project (only 1 can be included)
+
 #include <iostream>
 using namespace std;
 
