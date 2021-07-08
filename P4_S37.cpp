@@ -12,20 +12,8 @@ int main()
 	cout << "Stranica2 = ";
 	double str2;
 	cin >> str2;
-	// definiramo str3 koja se izračunava unutar grana:
-	double str3;
-	// ako je prva zadana stranica dulja, ...
-	if (str1 > str2)
-	{
-		// ... onda računaj drugu katetu,
-		str3 = sqrt(str1 * str1 - str2 * str2);
-	}
-	else
-	{
-		// ...a inače računaj hipotenuzu.
-		str3 = sqrt(str1 * str1 + str2 * str2);
-	}
-	// ispiši rezultat:
+	// izračunajmo i ispišimo hipotenuzu
+	double str3 = sqrt(str1 * str1 + str2 * str2);
 	cout << "Stranica3 = " << str3 << endl;
 	return 0;
 }
