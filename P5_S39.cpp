@@ -26,6 +26,6 @@ int main()
 		str3 = sqrt(str1 * str1 + str2 * str2);
 	}
 	// ispiši rezultat:
-	cout << "Stranica33 = " << str3 << endl;
+	cout << "Stranica3 = " << str3 << endl;
 	return 0;
 }
